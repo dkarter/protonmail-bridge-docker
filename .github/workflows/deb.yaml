@@ -55,7 +55,6 @@ jobs:
           image: protonmail-bridge:latest
           fail-build: true
           severity-cutoff: critical
-          acs-report-enable: true
 
       - name: Upload Anchore scan SARIF report
         uses: github/codeql-action/upload-sarif@45580472a5bb82c4681c4ac726cfdb60060c2ee1 # v3
